@@ -1,0 +1,10 @@
+Teste iniciado em 2024-11-06 15:01:01
+2024-11-06 15:01:01: Latência para 8.8.8.8 é 78.153 ms
+Teste iniciado em 2024-11-06 15:01:54
+2024-11-06 15:01:54: Latência para 8.8.8.8 é 40.435 ms
+2024-11-06 15:01:54: Latência para 1.1.1.1 é 44.749 ms
+2024-11-06 15:01:54: Latência para google.com é 43.763 ms
+2024-11-06 15:01:54: Latência para microsoft.com é 177.203 ms
+2024-11-06 15:01:54: Latência para facebook.com é 45.019 ms
+2024-11-06 15:01:54: Latência para academico.ifms.edu.br.com é 49.633 ms
+2024-11-06 15:01:54: Latência para amazon.com é 144.629 ms
