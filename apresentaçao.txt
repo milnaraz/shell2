@@ -1,0 +1,81 @@
+for variavel in lista
+do
+    # comandos
+done
+
+for arquivo in *
+do
+    echo "Arquivo encontrado: $arquivo"
+done
+
+
+for fruta in maçã laranja banana
+do
+    echo "Eu gosto de $fruta"
+done
+
+
+for i in $(seq 1 5)
+do
+    echo "Número: $i"
+done
+
+
+for ((i = 1; i <= 5; i++))
+do
+    echo "Valor de i: $i"
+done
+
+
+for param in "$@"
+do
+    echo "Parâmetro: $param"
+done
+
+./exibe_nomes.sh Alice Bob Carol
+
+
+
+IFS=","
+for item in "maçã,banana,laranja"
+do
+    echo "Fruta: $item"
+done
+
+
+
+if [ "$#" -ne 1 ]; then
+    echo "Uso: $0 nome_do_arquivo"
+    exit 1
+fi
+
+arquivo="$1"
+
+for item in *
+do
+    
+    if [ "$item" == "$arquivo" ] && [ -f "$item" ]; then
+        rm "$item"
+        echo "Arquivo $item deletado."
+    fi
+done
+
+
+
+
+for arquivo in *
+do
+    if [ -f "$arquivo" ]; then
+        rm "$arquivo"
+        echo "Arquivo $arquivo deletado."
+    else
+        echo "$arquivo não é um arquivo. Ignorando."
+    fi
+done
+
+
+
+
+
+
+
